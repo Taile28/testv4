@@ -149,18 +149,12 @@ end
 -- Object Variables
 
 local Camera = workspace.CurrentCamera
-local Main = ArrayField.Main
+local Main = RayField.Main
 local Topbar = Main.Topbar
 local Elements = Main.Elements
 local LoadingFrame = Main.LoadingFrame
-local TopList = Main.TabList
-local SideList = Main.SideTabList.Holder
-local TabsList = TopList and SideList
 local SearchBar = Main.Searchbar
-local Filler = SearchBar.CanvasGroup.Filler
-local Prompt = Main.Prompt
-local NotePrompt = Main.NotePrompt
-local InfoPrompt = ArrayField.Info
+
 
 
 Rayfield.DisplayOrder = 100
